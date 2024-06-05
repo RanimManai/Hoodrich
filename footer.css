@@ -1,0 +1,29 @@
+#footer0{display: flex;
+    justify-content: space-around;}
+    #footer1{width:30vh;
+        margin-top:5vh;
+        margin-bottom: 1vh;
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer img{height:max(3vh,2vw);}
+    footer img:hover{cursor: pointer;
+    height: max(3.2vh,2.3vw);
+    transition: ease-in;}
+    #footer2{
+        background-color: rgb(231, 231, 231);
+        margin-bottom: 0px;
+        font-size: 0.7rem;
+        text-align: right;
+    
+    }
+    #footer2 p{margin-right: 4vw;}
+    #cp{
+        text-decoration: none;
+        color: black;
+    }
+    .copyright:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }

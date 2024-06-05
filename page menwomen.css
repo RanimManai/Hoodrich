@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.hood{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px 5px 5px 5px;
+}
+.all {
+    width: 100%;
+    border-collapse: collapse;
+  }
+.photo {
+    padding: 8px;
+    text-align: left;
+}
+.prix{
+    font-weight: bold;
+    font-style: oblique;
+}
+.src{
+    text-decoration: none;
+}
+.name{
+    font-weight: bold; 
+    color: black;
+}
+.name:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.hood:hover{
+    transform: scale(1.1);
+}
+td:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{padding: 0px;
+    margin:0px;
+       font-family: "Open Sans", sans-serif;
+       overflow-x: hidden;
+}
+.titre{
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+
+    background-color: white;
+    display: flex;
+    height:10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid black;
+}
+#inheader{
+    display: flex;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+.headerli{
+    padding-left:max(1vh,1vw);
+    padding-top:max(0.7vh,0.7vw);
+}
+.headerli:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#spanheader{
+    display: flex;  padding-top:3vh; align-content: space-between; justify-items: center;
+}
+#spanheader img {height: 3vh; padding-right: 0.5vw;  }
+#spanheader img:hover{cursor:pointer;
+    height:3.1vh;}
+.button{
+    appearance: none;
+    background-color: white;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    /* min-height: 60px; */
+    /* min-width: 0; */
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* width: 100%; */
+    will-change: transform;
+    font-size: min(1.2rem,3vh,2vw);
+}
+.button:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    
+}
+.button:disabled{
+    pointer-events: none;
+}
+.button:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+#form { text-align: center;
+    width:100vw;
+    height: 40vh;
+    margin:0px;
+    background-color: rgb(231, 231, 231);
+    border-bottom: 1px solid black;
+}
+    #form h1 {margin-left:0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right:0px ;}
+    
+    #form h3{color:#3B3B3B;
+        font-size: 0.8rem;
+        margin-left: 0px;
+        margin-right:0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #form .button{
+        font-size: 0.8rem;
+        padding:10px;
+    }
+    #form #email{
+        border: black 2px solid;
+        border-radius: 10px;
+        height:2.1rem;
+        width:20rem;
+        margin-top:0px;
+    }
+#footer0{display: flex;
+justify-content: space-around;}
+#footer1{width:30vh;
+    margin-top:5vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{height:max(3vh,2vw);}
+footer img:hover{cursor: pointer;
+height: max(3.2vh,2.3vw);
+transition: ease-in;}
+#footer2{
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 0px;
+    font-size: 0.7rem;
+    text-align: right;
+
+}
+#footer2 p{margin-right: 4vw;}
+#cp{
+    text-decoration: none;
+    color: black;
+}
+.copyright:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#shopping0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#shopping {
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#shopping div{
+    width:18vw;
+  }
+#shopping img{
+    width:13vw;
+    border-radius: 5px;
+
+}
+#shopping2{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#shopping2 div{
+    width:20vw;
+}
+#shopping2 div:hover{
+cursor: pointer;}
+#shopping div:hover{
+    cursor: pointer;}
+#shopping div:hover h3 {       
+    text-decoration: underline;
+}
+#shopping2 div:hover h3 {
+    text-decoration: underline;
+}
+#shopping2 img{
+    object-fit:contain;
+    width:15vw;
+    border-radius: 5px;
+}
+#shopping2 div:hover img{
+transform: scale(1.1);}
+#shopping div:hover img{
+    transform: scale(1.1);}
+marquee{
+    font-size: larger;
+}
+.bucket{
+    padding: 10px;
+    margin: 0 auto;
+    background-color:  rgb(221, 218, 218);
+    width: 70vw;
+    min-height: 50vh;
+    max-height: 90vh;
+    text-align: center;
+    border-radius: 25px;
+}
+.inbucket{
+    min-height: 30vh;
+    max-height: 70vh;
+overflow-y: scroll;
+background-color: rgb(235, 235, 235);
+border-radius: 25px;
+padding:0px;
+}
+.inbucket div{
+    height: 20vh;
+border: #3B3B3B 1px solid;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+overflow: hidden;}
+.inbucket img{padding-top: 5px;
+    height: 19vh;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 30px;}
+.inbucket h4{padding-top: 2px;
+    text-align: left;}
+.inbucket p{text-align: left;}
+.remove{
+    background-color: RED;
+    border-radius: 25px;
+    font-size: larger;
+    text-align: right;
+    box-shadow: none;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
