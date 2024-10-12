@@ -15,3 +15,7 @@ This project is a simple e-commerce website inspired by the Hoodrich brand, deve
 - **HTML**: Structuring web pages and content.
 - **CSS**: Styling the website for a visually appealing design.
 - **PHP**: Handling server-side processes such as user authentication and order management.
+
+## Acknowledgements
+- Project inspired by the Hoodrich brand.
+- Developed for my web development class project.
